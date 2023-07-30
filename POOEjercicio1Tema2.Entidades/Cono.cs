@@ -46,11 +46,11 @@ namespace POOEjercicio1Tema2.Entidades
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"Cono");
-            sb.AppendLine($"Radio....: {GetRadio()}");
-            sb.AppendLine($"Altura...: {GetAltura()}");
+            sb.AppendLine($"Radio........: {GetRadio()}");
+            sb.AppendLine($"Altura.......: {GetAltura()}");
             sb.AppendLine($"Generatríz...: {GetGeneratriz():N}");
-            sb.AppendLine($"Superficie: {GetArea():N}");
-            sb.AppendLine($"Volumen...: {GetVolumen():N}");
+            sb.AppendLine($"Superficie...: {GetArea():N}");
+            sb.AppendLine($"Volumen......: {GetVolumen():N}");
             return sb.ToString();
         }
 
